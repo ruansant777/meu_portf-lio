@@ -1,22 +1,44 @@
 :root {
-  --cor-principal: #6e859f;
-  --cor-secundaria: #284260;
-  --cor-destaque: #c92bfc;
+    --cor-principal: #6e859f;
+    --cor-secundaria: #284260;
+    --cor-destaque: #c92bfc;
 }
 
 body {
     font-family: 'Arial', sans-serif;
-  }
+}
 
 h1, h2, h5 {
-  color: var(--cor-secundaria);
-  font-weight: 700;
+    color: var(--cor-secundaria);
+    font-weight: 700;
 }
 
 footer a {
-  color var(--cor-principal);
+    color: var(--cor-principal);
 }
 
 footer a:hover {
-  color: var(--cor-destaque);
+    color: var(--cor-destaque);
+}
+
+body.dark-mode {
+    background-color: rgba(18, 18, 18, 0.853);
+    color: #fff;
+}
+
+.dark-mode {
+    margin-top: 20px;
+}
+
+.dark-mode-btn {
+    display: flex;
+    background-color: rgb(44, 62,80);
+    color: #fff;
+    border-radius: 150px;
+}
+
+.dark-mode-btn:hover {
+    background-color: #fff;
+    color: rgb(44, 62, 80);
+    border-radius: 150px;
 }
